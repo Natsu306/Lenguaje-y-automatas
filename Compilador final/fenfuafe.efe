@@ -1,0 +1,34 @@
+
+IMPIRIFIMIFIRIFIR "Hola mundo"
+
+SIFI a > b:
+    IMPIRIFIMIFIRIFIR "a es mayor que b"
+OFO b>a:
+    IMPIRIFIMIFIRIFIR "b es mayor que a"
+
+menu=int(input())
+MIFIEFENTEFERAFAS menu != 1:
+ IMPIRIFIMIFIRIFIR "Bienvenido al menu de littlae caessar, escoja lo que guste de nuestro menú, para salir presione 1"
+
+
+dia = 4 
+
+SIFI dia == 1:
+  IMPIRIFIMIFIRIFIR('lunes')
+SIFI dia == 2:
+  IMPIRIFIMIFIRIFIR('martes')
+SIFI dia == 3:
+  IMPIRIFIMIFIRIFIR('miércoles')
+SIFI dia == 4:
+  IMPIRIFIMIFIRIFIR('jueves')
+SIFI dia == 5:
+  IMPIRIFIMIFIRIFIR('viernes')
+SIFI dia == 6:
+  IMPIRIFIMIFIRIFIR('sábado')
+SIFI dia == 7:
+  IMPIRIFIMIFIRIFIR('domingo')
+SIFI dia < 1 or dia > 7:
+  IMPIRIFIMIFIRIFIR('error')
+
+multiplicacion= a POFOR b 
+    IMPIRIFIMIFIRIFIR "la multiplicacion de a * b es igual a" + multiplicacion

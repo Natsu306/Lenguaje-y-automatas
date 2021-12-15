@@ -1,0 +1,14 @@
+statement ::= "IMPIRIFIMIFIRIFIR" (expresion | string ) nl
+                "SIFI" comparacion "THEN" nl {statement} "END SIFI" nl
+                "MIFIEFENTEFERAFAS" comparacion "REPEAT" nl {statement} "ENDMIFIEFENTEFERAFAS" nl
+                "LABEL" ident nl |
+                "LET" ident "=" expresion nl |
+
+comparacion::= expresion(( "==" | "!=" | ">" | "<" | ">=" | "<=" ) expresion)+
+expresion ::= term {( "+" | "-" ) term} 
+term ::= unary { [ "/" | "*" ] unary }
+unary ::= [ "/" | "-" ] primary
+primary ::= number | ident
+nl::= '\n'+
+
+-10 / + 12 +
